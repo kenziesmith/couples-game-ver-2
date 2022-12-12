@@ -54,7 +54,7 @@ function createCouplesGame(rows = 4, rowItems = 4) {
 
     timer.innerHTML = '';
 
-    let setTime = 5;
+    let setTime = 60;
 
     timer.append('Время: ', count);
     count.innerHTML = setTime;
