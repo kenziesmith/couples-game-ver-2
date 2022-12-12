@@ -163,7 +163,7 @@ function startGame() {
     const rowItems = prompt('Введите количество карточек в строке\r\nТолько четные числа не менее 2 и не более 10!');
 
     if (rows >= 2 && rowItems >= 2 && rows <= 10 && rowItems <= 10 && (rowItems % 2 == 0)) createCouplesGame(rows, rowItems);
-    else createCouplesGame(2, 2);
+    else createCouplesGame(4, 4);
 }
 
 document.addEventListener('DOMContentLoaded', () => {
